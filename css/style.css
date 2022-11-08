@@ -20394,12 +20394,17 @@ section.thank-you .back-to-home {
 .dry-bg{
   background-image: url(../images/dry-bg.jpg);
 }
-section#dryeyes h3 {
+section#dryeyes h3,
+.section-heading {
   color: #1e619a;
   font-size:2.5rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase; 
+  }
+
+  .section-heading{
+    text-align: center;
   }
 
 section.risk_factor{}
@@ -20433,4 +20438,9 @@ section.artificial .gray_bg {
 section.artificial .gray_bg p{
   font-weight: 400; color: #828282;
   }
-
+.height-md{
+  min-height: 466px !important;
+}
+.height-lg{
+  min-height: 1280px !important;
+}
